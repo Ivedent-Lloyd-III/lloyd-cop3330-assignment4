@@ -32,4 +32,4 @@ test {
     }
 }
 
-mainClassName = 'ucf.assignments.ListMaker'
+mainClassName = 'ucf.assignments.ListMakerApp'
