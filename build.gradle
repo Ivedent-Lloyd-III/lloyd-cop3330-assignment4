@@ -32,6 +32,4 @@ test {
     }
 }
 
-application {
-    mainClass = 'ucf.assignments.Application'
-}
+mainClassName = 'ucf.assigments.Application'

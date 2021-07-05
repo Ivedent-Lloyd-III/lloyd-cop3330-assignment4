@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ListMaker {
+    main()
+    start()
+}
+
+class ListMakerController {
+
+}
+
+ListMaker - ListMakerController
+
+@enduml
