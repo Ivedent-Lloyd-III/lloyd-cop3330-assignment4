@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class ListMaker extends Application {
+public class ListMakerApp extends Application {
 
     public static void main(String[] args) {
         launch(args);
