@@ -32,6 +32,7 @@ public class ListMakerController {
 
     @FXML
     public void autoGenerateListClicked(ActionEvent actionEvent) {
+        // demo button
         // clicking this button will populate the data base with data from a text file for the TA
         // the file will be read and fill the database with appropriate lists and items
     }
