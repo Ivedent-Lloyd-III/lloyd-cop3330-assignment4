@@ -7,11 +7,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<AnchorPane prefHeight="309.0" prefWidth="505.0"
-            xmlns="http://javafx.com/javafx/16"
-            xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="ucf.assignments.ListMakerController">
+<AnchorPane prefHeight="309.0" prefWidth="505.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ucf.assignments.ListMakerController">
    <children>
       <GridPane layoutX="9.0" layoutY="62.0" prefHeight="67.0" prefWidth="586.0">
         <columnConstraints>
@@ -23,7 +19,7 @@
         </rowConstraints>
          <children>
             <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#createNewListClicked" text="Create New List" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#editListClicked" text="Edit Existing List" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#editListClicked" text="Edit Existing Lists" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
          </children>
       </GridPane>
       <Button layoutX="9.0" layoutY="269.0" mnemonicParsing="false" onAction="#autoGenerateListClicked" text="Auto Generate Lists" />

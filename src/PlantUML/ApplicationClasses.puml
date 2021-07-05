@@ -7,9 +7,12 @@ class ListMaker {
 }
 
 class ListMakerController {
-
+    createNewListClicked()
+    editListClicked()
+    autoGenerateListClicked()
 }
 
 ListMaker - ListMakerController
+javafx.Application <|-- ListMaker
 
 @enduml
