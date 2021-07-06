@@ -1,7 +1,7 @@
 @startuml
 'https://plantuml.com/class-diagram
 
-class ListMaker {
+class ListMakerApp {
     +main()
     +start()
 }
@@ -12,19 +12,25 @@ class ListMakerController {
     +autoGenerateListClicked()
 }
 
-class CreateNewList {
+class NewListMaker {
     -userTextInput()
 
 }
 
-class EditExistingListController {
+class ListMakerEditor {
+    -deleteListClicked()
+    -editListClicked()
+    -returnToListMaker()
 
+}
+class ListEditor{
 }
 
 
-ListMakerController - EditExistingListController
-ListMakerController -- CreateNewList
-ListMaker - ListMakerController
-javafx.Application <|-- ListMaker
+ListMakerController - ListMakerEditor
+ListMakerController -- NewListMaker
+ListMakerApp - ListMakerController
+javafx.Application <|-- ListMakerApp
+ListMakerEditor -- ListEditor
 
 @enduml
