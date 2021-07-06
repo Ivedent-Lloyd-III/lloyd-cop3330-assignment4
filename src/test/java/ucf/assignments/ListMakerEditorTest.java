@@ -8,6 +8,7 @@ class ListMakerEditorTest {
 
     @Test
     void deleteListClicked() {
+        // reads the file
     }
 
     @Test
