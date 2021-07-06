@@ -78,7 +78,7 @@ class ListMakerEditorTest {
         // closes both files
     }
     @Test
-    void sortListCompletedItems() {
+    void displayListCompletedItems() {
         // opens the file
         // reads to the list
         // scans the file for the objects marked as completed
@@ -87,7 +87,7 @@ class ListMakerEditorTest {
         // close file
     }
     @Test
-    void sortListIncompletedItems() {
+    void displayListIncompletedItems() {
         // opens the file
         // deletes the selected due date
         // populates file with new due date
