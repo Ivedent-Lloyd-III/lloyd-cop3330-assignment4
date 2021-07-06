@@ -22,7 +22,7 @@
         </rowConstraints>
          <children>
             <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#deleteListClicked" text="Delete List" />
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#editListClicked" text="Edit List" GridPane.rowIndex="1" />
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#editExistingListClicked" text="Edit List" GridPane.rowIndex="1" />
             <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#returnToListMaker" text="Return" GridPane.rowIndex="2" />
          </children>
       </GridPane>

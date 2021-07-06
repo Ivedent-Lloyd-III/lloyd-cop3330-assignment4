@@ -17,7 +17,7 @@ public class ListMakerEditor {
         // close file
     }
 
-    public void editListClicked(ActionEvent actionEvent) {
+    public void editExistingListClicked(ActionEvent actionEvent) {
         // reads the file
         // prompts the user to select a list to edit
         // reads file to that list title

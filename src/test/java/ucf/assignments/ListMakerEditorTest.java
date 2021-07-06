@@ -16,7 +16,7 @@ class ListMakerEditorTest {
     }
 
     @Test
-    void editListClicked() {
+    void editExistingListClicked() {
         // reads the file
         // deletes string selected by the user
         // replaces the string with new string
