@@ -14,23 +14,17 @@ class ListMakerController {
 
 class NewListMaker {
     -userTextInput()
-
 }
 
 class ListMakerEditor {
     -deleteListClicked()
     -editListClicked()
     -returnToListMaker()
-
 }
-class ListEditor{
-}
-
 
 ListMakerController - ListMakerEditor
 ListMakerController -- NewListMaker
 ListMakerApp - ListMakerController
 javafx.Application <|-- ListMakerApp
-ListMakerEditor -- ListEditor
 
 @enduml

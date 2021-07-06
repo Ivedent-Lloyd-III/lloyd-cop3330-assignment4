@@ -25,8 +25,8 @@ class ListMakerAppControllerTest {
 
     @Test
     void autoGenerateListClicked() {
-        // This button is for TA use, this populates the database to be manipulated by the gui
-        // see if clicking the button auto populates the database from an already created text file
-        // check and make sure the database is populated with the correct information
+        // This button is for TA use, this populates the file to be manipulated by the gui
+        // see if clicking the button auto populates the file from an already created text file
+        // check and make sure the file is populated with the correct information
     }
 }
