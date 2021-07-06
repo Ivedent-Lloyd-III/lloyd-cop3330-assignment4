@@ -21,6 +21,9 @@ class ListMakerEditor {
     -deleteListClicked()
     -editListClicked()
     -returnToListMaker()
+    -displaySelectedList()
+    -displayListCompletedItems()
+    -displayListIncompletedItems()
 }
 
 ListMakerController - ListMakerEditor

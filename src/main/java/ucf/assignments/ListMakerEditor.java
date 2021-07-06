@@ -42,12 +42,12 @@ public class ListMakerEditor {
         // closes file
     }
 
-    public void sortListCompletedItems(){
+    public void displayListCompletedItems(){
         // reads file and scans to selected list
         // displays the items marked as completed to the user
         // closes file
     }
-    public void sortListIncompletedItems(){
+    public void displayListIncompletedItems(){
         // reads file and scans to selected list
         // displays the items marked as incomplete to the user
         // closes file
