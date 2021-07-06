@@ -13,7 +13,8 @@ class ListMakerController {
 }
 
 class NewListMaker {
-    -userTextInput()
+    -newListUserInputs()
+    -returnToListMaker()
 }
 
 class ListMakerEditor {
